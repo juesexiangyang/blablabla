@@ -16,10 +16,7 @@ while(continue_or_no == 'y'):
             print "congratulation !"
             print "you used ",count_a,"times to get the right number"
             continue_or_no = raw_input("input y to continue or input n to terminate:")
-            if continue_or_no == 'y':
-                break
-            else:
-                break
+            break
                 
         else:
             count_a += 1
@@ -35,10 +32,7 @@ while(continue_or_no == 'y'):
             print "congratulation !"
             print "you used ",count_b,"times to get the right number"
             continue_or_no = raw_input("input y to continue or input n to terminate:")
-            if continue_or_no == 'y':
-                break
-            else:
-                break
+            break
         else:
             count_b += 1
             big_or_small = guess_b > number_b
